@@ -4,7 +4,7 @@
 
 ### Why the Nordics? (Denmark, Finland, Island, Norway and Sweden)
 #### xxx combined GDP
-#### Majority ar English speaking
+#### Majority are English speaking
 #### xxx in combined import 
 #### Some of the largest infrastucture and consatruction 
 #### Providers of excellent test-beds
