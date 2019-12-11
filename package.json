@@ -1,0 +1,23 @@
+{
+  "name": "businessnordics",
+  "version": "1.0.0",
+  "description": "One stop hop for busienss opportunities in the nordics",
+  "main": "index.html",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danmalmx/business_nordics.git"
+  },
+  "author": "digitalmumble.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danmalmx/business_nordics/issues"
+  },
+  "homepage": "https://github.com/danmalmx/business_nordics#readme"
+}
