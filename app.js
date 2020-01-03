@@ -5,7 +5,6 @@ const brg = require('./brg');
 (async () => {
 
   await brg.initialize();
-  await brg.scrapeNews();
 
   // const USERNAME = 'danmalmx@gmail.com'
   // const PASSWORD = 'Danmalm7?1'

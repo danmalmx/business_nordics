@@ -4,7 +4,8 @@
   "description": "One stop hop for busienss opportunities in the nordics",
   "main": "index.html",
   "dependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.0",
+    "puppeteer": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
