@@ -20,29 +20,28 @@ const brgNews = {
 
         await page.goto(BASE_URL);
         await page.waitFor(100);
-        
-        
-    },        
-    
+
+
+    },
+
     scrapeNews: async () => {
         await page.goto(NEWS_URL);
         await page.waitFor(200);
-        await page.waitFor('div[class="p-article-package__list"]')
-        let brgNewsFeed = await page.evaluate(() => {
-            return {
-                image: document.querySelector('div[class="p-article-package__list"]')
-                // headline:
-                // article:     
-            }
-        })
-        await page.screenshot({path: 'example.png'});
+        let brgNewsFeed = await page.waitFor('div[class="p-article-package__list-items]');
+        // let brgNewsFeed = await page.evaluate(() => {
+        //     return {
+        //         image: document.querySelector('div[class="p-article-package__list"]')
+        //         headline:
+        //         article:
+        //     }
+        // })
+        
         debugger;
-
         
         return brgNewsFeed
     },
-
- 
+    
+    
     end: async () => {
         await browser.close();
     }
