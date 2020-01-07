@@ -2,7 +2,7 @@
   "name": "businessnordics",
   "version": "1.0.0",
   "description": "One stop hop for busienss opportunities in the nordics",
-  "main": "index.html",
+  "main": "app.js",
   "dependencies": {
     "node-sass": "^4.13.0",
     "puppeteer": "^2.0.0"

@@ -1,10 +1,11 @@
 const puppeteer = require('puppeteer');
-const twitter = require('./twitter');
-const brg = require('./brg');
+const brgNews = require('./brg');
 
 (async () => {
 
-  await brg.initialize();
+  await brgNews.initialize();
+
+  await brgNews.scrapeNews();
 
   // const USERNAME = 'danmalmx@gmail.com'
   // const PASSWORD = 'Danmalm7?1'
@@ -14,8 +15,6 @@ const brg = require('./brg');
 
   // let details = await twitter.getUser('harvard')
   // await twitter.postTweet('Testing automated messages');
-
-  debugger;
 
   // await twitter.end();
 
